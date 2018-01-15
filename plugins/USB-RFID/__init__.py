@@ -19,7 +19,7 @@ eg.RegisterPlugin(
     canMultiLoad = False,
     description = __doc__,
     url = "http://www.eventghost.org/forum/viewtopic.php?f=9&t=1945",
-    guid = '{017848B7-CC6D-45A8-989A-752A5CB1A8C9}'
+    guid = '{4d36e96b-e325-11ce-bfc1-08002be10318}'
 )
 
 import binascii
@@ -32,8 +32,8 @@ class Text:
     errorFind = "Error finding USB/RFID-Interface"
     duration = "Duration:"
 
-VENDOR_ID = 6383
-PRODUCT_ID = 57368
+VENDOR_ID = FFFF
+PRODUCT_ID = 0035
 
 class USB_RFID(eg.PluginClass):
     text = Text
